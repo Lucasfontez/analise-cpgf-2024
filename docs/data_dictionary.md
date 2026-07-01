@@ -74,5 +74,5 @@ Um mesmo registro pode ter um, outro, ambos ou nenhum. Misturar os dois leva a c
 ## Proveniência
 
 - **Coleta:** download dos 12 extratos mensais (CSV) na seção CPGF do Portal da Transparência.
-- **Processamento:** padronização de nomes de colunas, conversão de tipos e consolidação em arquivo único (`cpgf_2024.parquet`).
+- **Processamento:** padronização de nomes de colunas, conversão de tipos e consolidação em banco SQLite (`cpgf_2024.db`).
 - **Atualização da fonte:** mensal, conforme prazos de divulgação do Governo Federal.

@@ -99,8 +99,8 @@ Juntas, as três descobertas mostram um cartão corporativo **concentrado e opac
 
 ```bash
 # 1. Clonar o repositório
-git clone https://github.com/Lucasfontez/cpgf-2024-analise.git
-cd cpgf-2024-analise
+git clone https://github.com/Lucasfontez/analise-cpgf-2024.git
+cd analise-cpgf-2024
 
 # 2. Criar e ativar o ambiente virtual
 python -m venv venv
@@ -124,7 +124,7 @@ jupyter notebook notebooks/analise_cpgf.ipynb
 ## Estrutura do projeto
 
 ```
-cpgf-2024-analise/
+analise-cpgf-2024/
 ├── data/
 │   ├── raw/                  # 12 CSVs mensais do Portal (não versionados)
 │   └── cpgf_2024.db          # banco SQLite gerado pelo ETL

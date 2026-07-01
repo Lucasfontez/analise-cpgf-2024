@@ -14,6 +14,9 @@ data/raw/*
 # Outputs gerados
 outputs/figures/*
 !outputs/figures/.gitkeep
+!outputs/figures/gasto_por_tipo.png
+!outputs/figures/sazonalidade_mensal.png
+!outputs/figures/concentracao_orgaos.png
 
 # SO / IDE
 .DS_Store
